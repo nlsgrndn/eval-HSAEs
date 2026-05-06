@@ -1,0 +1,36 @@
+# Core JAX ecosystem
+jax[cuda]>=0.4.0
+jaxlib
+equinox>=0.11.0
+optax>=0.1.0
+orbax-checkpoint
+
+# PyTorch ecosystem  
+torch>=2.0.0
+transformers>=4.30.0
+
+# Data processing
+numpy>=1.20.0
+pandas>=1.5.0
+pyarrow>=12.0.0
+connectorx
+datasets>=2.0.0
+
+# Visualization and logging
+matplotlib>=3.5.0
+wandb
+treescope
+
+# Database
+psycopg2-binary
+
+# Evaluation framework
+# Note: sae-bench might need to be installed separately or from git
+# sae-bench
+
+# LLM interface (for translation evaluation)
+llm
+
+# Jupyter notebooks (if you plan to use the .ipynb files)
+jupyter
+ipykernel

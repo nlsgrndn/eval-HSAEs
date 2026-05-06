@@ -1,0 +1,23 @@
+{
+    "batch_size": 32512,
+    "subspace_dim": 16,
+    "num_experts": 361,
+    "atoms_per_subspace": 16,
+    "k": 32,
+    "l1_penalty": 1e-3,
+    "ortho_penalty": 1e-1,
+    "num_epochs": 100,
+    "wandb_run_name": "dino_361_16_v2_2",
+    "lr_peak": 5e-4,
+    "lr_init": 1e-11,
+    "norm_clip": 0.75,
+    "warmup_steps": 200,
+    "bias": false,
+    "save_checkpoints": null,
+    "restore_from": false,
+    "restore_step": null,
+    "fsdp_shard": false,
+    "model_str": "dino",
+    "data_split": "train",
+    "seed": 2
+}
